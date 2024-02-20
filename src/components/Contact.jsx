@@ -1,9 +1,10 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-
+import InAvatar from "./InAvatar";
+import { Canvas } from "@react-three/fiber";
 import { styles } from "../styles";
-import { EarthCanvas } from "./canvas";
+import { Avatar } from "./Avatar";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
@@ -125,10 +126,23 @@ const Contact = () => {
 
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
-        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
+        className='xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden'
       >
-      
+
+      <div  className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`} >
+
+      <Canvas 
+      shadows camera={{ position: [0, 1, 5], fov: 30}}>
+      <color  args={["#ececec"]} />
+      <InAvatar/>
+        </Canvas>
+
+      </div>
       </motion.div>
+
+
+      
+
 
 
     </div>
