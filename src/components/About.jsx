@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
+import Footer from './Footer';
 
 const ServiceCard = ({ index, title, icon }) => {
    return(
@@ -56,6 +57,11 @@ const About = () => {
         Introduction
       </p>
       <h2 className={styles.sectionHeadText}>About</h2>
+      
+      <div className='mt-2 flex flex-wrap gap-10'>
+        <Footer/>
+      </div>
+      
     </motion.div>
 
     <motion.p

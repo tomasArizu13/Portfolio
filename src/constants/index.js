@@ -36,7 +36,7 @@ import {
     },
     {
       id: "work",
-      title: "Work",
+      title: "Journey",
     },
     {
       id: "projects",
@@ -182,15 +182,11 @@ import {
     {
       name: "Nike Store",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to search for some models of nike shoes and see the catalogue, new offers and discounts",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
         },
         {
           name: "tailwind",
@@ -243,5 +239,6 @@ import {
       source_code_link: "https://github.com/",
     },
   ];
+
   
-  export { services, technologies, experiences,projects };
+  export { services, technologies, experiences,projects};
