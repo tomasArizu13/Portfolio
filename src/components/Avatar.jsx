@@ -6,17 +6,17 @@ import React, { useEffect, useRef } from "react";
 
 export function Avatar(props) {
 
-  const group = useRef ();
+  const group = useRef();
   const { nodes, materials } = useGLTF("models/65d4fa7f7ccc220780071685 (1).glb");
 
   const {animations : wavingAnimation} = useFBX("animations/Waving.fbx");
 
   wavingAnimation[0].name = "Waving";
 
- const {actions} = useAnimations(wavingAnimation, group)
+ const {actions} = useAnimations(wavingAnimation, group);
 
  useEffect(() => {
-    actions["Waving"].reset().play();
+    actions["Waving"].reset().fadeIn(0.5).play();
  }, [])
   return (
     <group {...props} ref={group} dispose={null}>

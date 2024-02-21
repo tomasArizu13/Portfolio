@@ -4,7 +4,6 @@ import emailjs from "@emailjs/browser";
 import InAvatar from "./InAvatar";
 import { Canvas } from "@react-three/fiber";
 import { styles } from "../styles";
-import { Avatar } from "./Avatar";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
@@ -125,11 +124,11 @@ const Contact = () => {
       </motion.div>
 
       <motion.div
-        variants={slideIn("right", "tween", 0.2, 1)}
+        variants={slideIn("right", "tween", 0.2, 7)}
         className='xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden'
       >
 
-      <div  className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`} >
+      <div  className={`xl:mt-150 flex xl:flex-row flex-col-reverse gap-10 p-200 pr-20 overflow-hidden`} >
 
       <Canvas 
       shadows camera={{ position: [0, 1, 5], fov: 30}}>
@@ -137,13 +136,10 @@ const Contact = () => {
       <InAvatar/>
         </Canvas>
 
+        
+
       </div>
       </motion.div>
-
-
-      
-
-
 
     </div>
   )
