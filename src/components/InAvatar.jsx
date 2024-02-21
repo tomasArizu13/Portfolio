@@ -14,7 +14,7 @@ export const InAavatar = () => {
         <Avatar/>
         <mesh scale={[0.8, 0.5, 0.8]} position-y={0.25}></mesh>
     </group>
-    <ambientLight intensity={2}/>
+    <ambientLight intensity={1.5}/>
     </>
   )
 }
