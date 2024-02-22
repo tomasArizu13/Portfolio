@@ -1,7 +1,7 @@
 import { OrbitControls } from '@react-three/drei'
 import { Avatar } from './Avatar'
 
-export const InAavatar = () => {
+export const InAavatar = ({isMobile}) => {
   return (
     <>
     <OrbitControls
