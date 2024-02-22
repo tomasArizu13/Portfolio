@@ -26,7 +26,8 @@ import {
     jobit,
     tripguide,
     threejs,
-    firebase
+    firebase,
+    instagramreplic
   } from "../assets";
   
   export const navLinks = [
@@ -197,24 +198,24 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Instagram",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to create an account, login and register, also upload photos with the computer camera at the moment, search for other users, see your own profile with your images upload and have a home page with the other users post, likes and comments.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "firebase",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: instagramreplic,
       source_code_link: "https://github.com/",
     },
     {

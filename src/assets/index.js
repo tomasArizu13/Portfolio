@@ -7,6 +7,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import x from "./x.png"
+import instagramreplic from "./instagramreplic.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -71,5 +72,6 @@ export {
   firebase,
   linkedin,
   instagram,
-  x
+  x,
+  instagramreplic
 };
