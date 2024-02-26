@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import useSound from "use-sound";
-import Cyclone from '../assets/sonidos/Cyclone.mp3'
+
 
 
 import { styles } from "../styles";
@@ -11,7 +10,7 @@ import { logo, menu, close } from "../assets";
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
-  const [playSound] = useSound(Cyclone);
+
   return (
     <nav
     className={`${styles.paddingX} w-full flex
@@ -34,7 +33,7 @@ const Navbar = () => {
             className='sm:block hidden text-[#20AC87]'>Portfolio </span> 
           </p>
         </Link>
-        <button onClick={playSound}>Play</button>
+  
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((Link) => (
             <li

@@ -30,15 +30,6 @@ const Footer = () => {
     </a>
 
     <a
-    href='https://twitter.com/ArizuTomas'
-    >
-    <img
-    src={x}
-    alt='source code'
-    className='relative w-11 h-11 overflow-hidden object-contain rounded-full bg-white '
-    />
-    </a>
-    <a
     href='https://www.linkedin.com/in/tomas-arizu-47ba1521a/'
     >
     <img
