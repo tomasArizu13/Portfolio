@@ -71,7 +71,7 @@ const About = () => {
       I am a 21-year-old student, finishing my degree in Digital Business at the University of San Andres.
       I finished studying programming with Digital House, and managed to obtain the title of Junior Programmer. 
       After having studied Front and Back End for a year and continuing with React Native, Node js and Firebase for mobile apps. 
-      I specialize in Java Script, but I am always open to learning new languages.
+      I specialize in Java Script, but I am always open for learning new languages.
 
     </motion.p>
     <div

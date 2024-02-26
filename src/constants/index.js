@@ -46,7 +46,7 @@ import {
     {
       id: "contact",
       title: "Contact",
-    },
+    }
     
   ];
   
@@ -56,7 +56,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native",
+      title: "React Js",
       icon: mobile,
     },
     {
@@ -135,7 +135,7 @@ import {
       ],
     },
     {
-      title: "React and React Native",
+      title: "React Js and React Native",
       company_name: "Digital House",
       icon: reactjs,
       iconBg: "#383E56",

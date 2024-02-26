@@ -8,6 +8,7 @@ import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
 
+
 //ZvtCkRlzyASf-cOlO
 //template_lfojkjv
 //service_0yzp7mj
@@ -134,6 +135,9 @@ const Contact = () => {
       <Canvas 
       shadows camera={{ position: [0, 1, 5], fov: 30}}>
       <color  args={["#ececec"]} />
+      
+      
+
       <InAvatar/>
         </Canvas>
 

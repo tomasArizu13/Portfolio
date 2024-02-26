@@ -8,7 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import x from "./x.png"
 import instagramreplic from "./instagramreplic.png";
-
+import Cv from "./Cv.png"
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -73,5 +73,6 @@ export {
   linkedin,
   instagram,
   x,
-  instagramreplic
+  instagramreplic,
+  Cv
 };
