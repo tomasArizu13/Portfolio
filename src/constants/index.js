@@ -56,15 +56,15 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React Native",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Backend",
       icon: backend,
     },
     {
-      title: "Frontend Developer",
+      title: "Frontend",
       icon: creator,
     },
   ];
